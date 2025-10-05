@@ -12,7 +12,5 @@
       "dest": "/api/follow.js"
     }
   ],
-  "env": {
-    "NOPECHA_API_KEY": "@nopecha_api_key"
-  }
+
 }
