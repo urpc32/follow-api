@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "api/follow.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/follow",
-      "dest": "/api/follow.js"
+      "source": "/api/follow",
+      "destination": "/api/follow.js"
     }
   ]
 }
