@@ -11,6 +11,5 @@
       "src": "/api/follow",
       "dest": "/api/follow.js"
     }
-  ],
-
+  ]
 }
