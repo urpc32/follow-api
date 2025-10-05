@@ -1,1 +1,4 @@
-flask==3.0.3 requests==2.32.3 serverless-wsgi==3.0.0 git+https://github.com/de-contained/RoPy.git
+flask==3.0.3
+requests==2.32.3
+serverless-wsgi==3.0.0
+git+https://github.com/de-contained/RoPy.git
