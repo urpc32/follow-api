@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/follow.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/follow",
+      "dest": "/api/follow.js"
+    }
+  ],
+  "env": {
+    "NOPECHA_API_KEY": "@nopecha_api_key"
+  }
+}
